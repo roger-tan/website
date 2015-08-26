@@ -1,5 +1,5 @@
 body {
-	font-family: "Gotham Narrow"; "Helvetica Neue",  "Lato", "Helvetica", "Calibri", "Sans-serif";
+	font-family: 'Gotham Narrow', 'Helvetica Neue', 'Lato', 'Helvetica', 'Calibri', 'Sans-serif';
 	background: url('../img/background.jpg');
 	background-repeat:no-repeat;
 	background-size:cover;
@@ -150,14 +150,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .job_title {
 	color: #273844;
-	font-family: "Gotham Narrow";
 	font-weight: bold;
 	margin-left: 10px;
 }
 
 .job_company {
 	color: #53B9F0;
-	font-family: "Gotham Narrow";
 	font-weight: bold;
 	margin-left: 10px;
 	
@@ -167,7 +165,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #F5F9FB;
 	text-align: justify;
 	color: #273844;
-	font-family: "Gotham Narrow";
 	font-weight: medium;
 	border-radius: 5px;
 	padding: 15px 15px 15px 15px;
