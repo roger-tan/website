@@ -1,0 +1,273 @@
+body {
+	font-family: "Gotham Narrow"; "Helvetica Neue",  "Lato", "Helvetica", "Calibri", "Sans-serif";
+	background: url('../img/background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #7095B1;
+}
+
+
+.nav-header {
+	margin-left: -15px;
+	line-height: 40px;
+	font-weight: bold;
+}
+
+.nav-header li a {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.nav-header li:first-child a{
+	border-radius: 5px 0px 0px 0px;
+}
+
+/*
+.nav-header li a{
+	border-radius: 0px;
+}
+
+.nav-header li:last-child a{
+	border-radius: 0px 5px 0px 0px;
+}
+*/
+
+.container_background {
+	background-color: #273844;
+}
+
+#container {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+/*
+.profile_background {
+	background-color: #465D6E;
+	height: auto;
+}
+*/
+#container_body {
+	background: #465D6E none repeat scroll 0% 0%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.body_container {
+	background-color: #465D6E;
+}
+
+.detail_info_background {
+	transform: scale(1.1)
+	background: url('../img/profile.jpg');
+   filter: blur(5px);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+    position: absolute;
+    clip: rect(5px,295px,295px;5px);
+}
+
+.profile_contact {
+	background-color: #556D7E;
+	text-align: center;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-bottom: 30px;
+}
+
+.profile_picture {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 150px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px 
+}
+
+.profile_description {
+	padding: 20px 20px 20px 20px;
+	background-color: #F5F9FB;
+}
+
+.profile_contact #fullname {
+	margin-top: 20px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.btn-contact_me {
+	color: #fff;
+    background-color: #45A9EC;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.profile_contact_table {
+	width: 100%;
+}
+
+.profile_contact_table td {
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.profile_contact_table td.column_left{
+	color: #FFFFFF;
+}
+
+
+.profile_contact_table td.column_right {
+	color: #45A9E3;
+	text-align: right;
+	font-weight: 600;
+}
+
+.profile_contact_table tr {
+	border-bottom: 1px solid #617989;
+}
+
+
+.box_experience {
+	display: block;
+	background: #FFFFFF;
+	border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.job_title {
+	color: #273844;
+	font-family: "Gotham Narrow";
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.job_company {
+	color: #53B9F0;
+	font-family: "Gotham Narrow";
+	font-weight: bold;
+	margin-left: 10px;
+	
+}
+
+.job_description {
+	background-color: #F5F9FB;
+	text-align: justify;
+	color: #273844;
+	font-family: "Gotham Narrow";
+	font-weight: medium;
+	border-radius: 5px;
+	padding: 15px 15px 15px 15px;
+}
+
+.job_description ul {
+	list-style-type: none;
+}
+
+.job_description ul li:before {
+	content: "• ";
+	color: #273844;
+}
+.table_period_location th{
+	color: #AAB6C0;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.table_period_location td {
+	color: #273844;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
+}
+.table_languages {
+	width: 100%;
+}
+
+.table_languages td {
+	color: #273844;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-width: 100%;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+}
+
+
+.table_languages tr:not(:last-child) {
+	border-bottom: 1px solid #DFEAF1;
+}
+
+.table_skills {
+	
+}
+
+
+.table_skills td {
+	color: #273844;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-width: 100%;
+	font-weight: bold;
+}
+
+.table_skills tr:not(:last-child) {
+	border-bottom: 1px solid #DFEAF1;
+}
+
+.badge_language {
+	display: inline-block;
+    min-width: 120px;
+    padding: 3px 15px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #AAB6C0;
+}
+
+.badge_skill {
+	margin-left: 5px;
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+    border-color: #AAB6C0;
+}
+
+.footer {
+	margin-bottom: -5px;
+	color: #AAB6C0;
+	text-align: center;
+	line-height: 60px;
+}
